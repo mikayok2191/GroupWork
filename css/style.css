@@ -1,0 +1,70 @@
+/* I wrote tag here as H1 should be only one in HTML */
+h1 {
+    font-size: 2rem; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(138, 43, 226);
+}
+
+.stp1 p {
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.stp3 p {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.stp4 {
+    position: relative;
+}
+
+.stp4 button {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.stp4 img {
+    position : absolute;
+    top: 50px;
+    left : 50px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+    border: 1px solid black;
+    background: #d0cece;
+  }
+  
+ /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a:hover {
+    color: pink;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+    padding: 10px;
+    transition: 0.5s;
+}
